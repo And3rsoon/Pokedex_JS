@@ -1,0 +1,244 @@
+
+html{
+    font-size: 10px;
+}
+
+#lista{
+    border-radius: 2rem;
+    height: 30rem;
+    width: 95%;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type:none;
+} 
+
+#divmain{
+    height: 30rem;
+    width: 100%;
+}
+
+.vazio{
+     visibility: hidden;
+
+}
+
+#column01{
+    flex:50%;
+
+}
+
+#column01{
+    flex:50%;  
+}
+
+
+#nome{
+    height: 5rem;
+    width: 20rem;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#numeracao{
+    font-size: 3rem;
+    height: 5rem;
+    width: 20rem;
+    padding: 1.5rem;
+    padding-left: 4.5rem;
+    padding-top: 3.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+#tipo{
+    height: 100px;
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    list-style: none;
+    color:white;
+}
+
+li{
+ border-radius: 1rem;
+ padding-left: 2rem;
+
+}
+
+#imagem{
+        height: 20rem;
+        width: 20rem;
+}
+
+
+
+#pokemoms{
+    position: relative;  
+}
+
+#inicio{
+    padding-top: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    height: 100px;
+    
+}
+
+#botaoVoltar{
+    height: 40px;
+    width: 40px;
+    position:relative;
+    display: inline-block;
+}
+
+
+#pokedexName{
+    font-size: 80px;
+    position: relative;
+    display: inline;
+    padding-left: 35%;
+
+}
+
+#botaoMenur{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    left: 85%;
+}
+
+#paginacao{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+#olNumeracao{
+    font-size: 2rem;
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+
+#numeracao01{
+    font-size: 2rem;
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+
+@media screen and (min-width:700px){
+    #pokemoms{
+        display: grid;
+        grid-template-columns: auto auto;      
+    } 
+
+    html{
+        font-size: 5px;
+    }
+    #divmain{
+        height: 35rem;
+        width: 90%;
+    }
+
+    #olNumeracao{
+        font-size: 4rem; 
+    }
+    #numeracao01{
+        font-size: 4rem; 
+    }
+
+}
+
+@media screen and (min-width:990px){
+    #pokemoms{
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        grid-row: 2px;
+        grid-column: 20px;    
+    } 
+
+}
